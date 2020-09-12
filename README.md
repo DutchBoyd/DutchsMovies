@@ -1,4 +1,4 @@
-# RazorPagesMovie
+# Dutch's Movies
 
 Finished the official Microsoft ASP.NET tutorial (https://docs.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/?view=aspnetcore-3.1), building a movie database in ASP.NET using RazorPages. Here is the finished app.
 
