@@ -4,12 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Movie</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        @* <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-page="/Movies/Index">RpMovie</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -30,7 +30,35 @@
                     </ul>
                 </div>
             </div>
+        </nav> *@
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Dutch's Movies</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/Privacy">Privacy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/Movies/Index">Movies</a>
+                        </li>
+            
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
         </nav>
+
+
     </header>
     <div class="container">
         <main role="main" class="pb-3">
@@ -40,7 +68,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2020 - RazorPagesMovie - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2020 - Dutch's Movies - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
     </footer>
 

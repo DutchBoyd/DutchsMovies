@@ -4,8 +4,51 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Trying to follow this tutorial... </a>.</p>
-    <p>The current time is: @DateTime.Now</p>
+<p></p>
+<div class="jumbotron">
+    <div class="text-center">
+      <a href="https://icon-library.net/icon/free-movies-icon-16.html" title="Free Movies Icon #205125"><img src="https://icon-library.net//images/free-movies-icon/free-movies-icon-16.jpg" width="25%" /></a>
+    </div>
+  <h1 class="display-3 text-center">Welcome to Dutch's Movies!</h1>
+  <p class="lead">This is a simple website I built in my ongoing effort to learn how to code. The backend was created using ASP.NET and Razor Pages. The front-end is 
+      using the Slate theme from <a href=https://bootswatch.com/slate/ class="text-info">bootswatch.com</a>. Most of the functionality was built by following along with the official Microsoft
+      tutorial, but I've tried to customize the project and add my own features. 
+  </p>
+
 </div>
+
+<div class="row">
+    <div class="col-lg-4">
+        <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+            <div class="card-header">Feature Addition #1</div>
+            <div class="card-body">
+                <h4 class="card-title text-info">Adding movie posters</h4>
+                <p class="card-text">The next feature I'd like to add is the ability to add movie posters to the app. There are two ways to do this: (1) adding an
+                    image as a blog directly to the database, or (2) adding a filepath to the database and uploading the physical image file to a folder on the web sever. 
+                    I'll experiment with both methods to determine which is best.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="card text-white mb-3" style="max-width: 20rem;">
+        <div class="card-header">Feature Addition #2</div>
+        <div class="card-body">
+            <h4 class="card-title text-info">User Login</h4>
+            <p class="card-text">I'd like to add a user model, and have the ability for users to login and define their own list of movies. This will let me play
+                around with using OAuth APIs to login users with social media sites (Twitter, Twitch, Facebook, Youtube).
+            </p>
+        </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="card text-white mb-3" style="max-width: 20rem;">
+        <div class="card-header">Feature Addition #3</div>
+        <div class="card-body">
+            <h4 class="card-title text-info">Web Scraping</h4>
+            <p class="card-text">The final feature I'd like to play around with is having some web-scraping functionality to go and collect data from third-party sites, such as new releases from IMDB or movie ratings from Rotten Tomatoes. I'd
+                like to experiment with back-end data collection using both API calls and traditional web-scraping methods.
+            </p>
+        </div>
+        </div>
+    </div>

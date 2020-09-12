@@ -8,21 +8,23 @@ a.navbar-brand {
 }
 
 /* Provide sufficient contrast against white background */
-a {
+/* a {
   color: #0366d6;
-}
+} */
 
 .btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#484e55), color-stop(60%, #3a3f44), to(#313539));
+  background-image: linear-gradient(#484e55, #3a3f44 60%, #313539);
+  background-repeat: no-repeat;
+  -webkit-filter: none;
+  filter: none;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+/* .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
-}
+} */
 
 /* Sticky footer styles
 -------------------------------------------------- */
