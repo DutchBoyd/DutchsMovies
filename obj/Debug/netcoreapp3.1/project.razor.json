@@ -14402,23 +14402,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Projects\\tutorial\\RazorPagesMovie\\Movies\\Details.cshtml",
-      "TargetPath": "Movies\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Projects\\tutorial\\RazorPagesMovie\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Projects\\tutorial\\RazorPagesMovie\\Movies\\Create.cshtml",
-      "TargetPath": "Movies\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Projects\\tutorial\\RazorPagesMovie\\PagesMovies\\Edit.cshtml",
-      "TargetPath": "PagesMovies\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14427,23 +14412,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Projects\\tutorial\\RazorPagesMovie\\PagesMovies\\Index.cshtml",
-      "TargetPath": "PagesMovies\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Projects\\tutorial\\RazorPagesMovie\\Movies\\Delete.cshtml",
-      "TargetPath": "Movies\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Projects\\tutorial\\RazorPagesMovie\\PagesMovies\\Details.cshtml",
-      "TargetPath": "PagesMovies\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Projects\\tutorial\\RazorPagesMovie\\PagesMovies\\Delete.cshtml",
-      "TargetPath": "PagesMovies\\Delete.cshtml",
+      "FilePath": "c:\\Projects\\tutorial\\RazorPagesMovie\\Pages\\Allstar.cshtml",
+      "TargetPath": "Pages\\Allstar.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14467,11 +14437,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Projects\\tutorial\\RazorPagesMovie\\PagesMovies\\Create.cshtml",
-      "TargetPath": "PagesMovies\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Projects\\tutorial\\RazorPagesMovie\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -14482,11 +14447,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Projects\\tutorial\\RazorPagesMovie\\Movies\\Edit.cshtml",
-      "TargetPath": "Movies\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Projects\\tutorial\\RazorPagesMovie\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -14494,11 +14454,6 @@
     {
       "FilePath": "c:\\Projects\\tutorial\\RazorPagesMovie\\Pages\\Movies\\Delete.cshtml",
       "TargetPath": "Pages\\Movies\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Projects\\tutorial\\RazorPagesMovie\\Movies\\Index.cshtml",
-      "TargetPath": "Movies\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],
