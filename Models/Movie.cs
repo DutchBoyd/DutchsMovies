@@ -17,5 +17,7 @@ namespace RazorPagesMovie.Models
         [Column(TypeName = "decimal(18, 2)")]
         public decimal Price { get; set; }
         public string Rating { get; set; }
+        // Adding a poster field, which will just contain a file name which will be stored in the wwwroot/assets/posters dir
+        public string Poster { get; set; }
     }
 }
