@@ -3,12 +3,25 @@
 
 @{
     ViewData["Title"] = "Details";
+    var poster = Model.Movie.Poster;
+    var year = Model.Movie.ReleaseDate.Year;
 }
 
-<h1>Details</h1>
 
+<div  style="padding-top: 20px;">
+@if (poster != "")
+{
+
+    <img src="/assets/posters/@poster">
+
+}
+else
+{
+    <p>No poster yet</p>
+}
+</div>
 <div>
-    <h4>Movie</h4>
+    <h4>@Html.DisplayFor(model => model.Movie.Title) (@year)</h4>
     <hr />
     <dl class="row">
         <dt class="col-sm-2">

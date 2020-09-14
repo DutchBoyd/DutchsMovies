@@ -9,7 +9,7 @@ using RazorPagesMovie.Data;
 namespace RazorPagesMovie.Migrations
 {
     [DbContext(typeof(RazorPagesMovieContext))]
-    [Migration("20200912083026_InitialCreate")]
+    [Migration("20200914070021_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -25,6 +25,9 @@ namespace RazorPagesMovie.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Genre")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Poster")
                         .HasColumnType("TEXT");
 
                     b.Property<decimal>("Price")

@@ -25,6 +25,9 @@ namespace RazorPagesMovie.Migrations
                     b.Property<string>("Genre")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Poster")
+                        .HasColumnType("TEXT");
+
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18, 2)");
 

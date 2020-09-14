@@ -67,7 +67,15 @@
             </td>
             <td>
                 @* Poster Logic *@
-                @Html.DisplayFor(modelItem => item.Poster)
+                @* @Html.DisplayFor(modelItem => item.Poster) *@
+                @if (item.Poster != "")
+                {
+                    <a href="/assets/posters/@item.Poster"><p>View</p></a> 
+                }
+                else
+                {
+                    <p>None</p>
+                }
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
