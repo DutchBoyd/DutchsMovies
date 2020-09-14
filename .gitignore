@@ -1,13 +1,3 @@
-bin/Debug/netcoreapp3.1/RazorPagesMovie.dll
-bin/Debug/netcoreapp3.1/RazorPagesMovie.pdb
-bin/Debug/netcoreapp3.1/RazorPagesMovie.Views.dll
-bin/Debug/netcoreapp3.1/RazorPagesMovie.Views.pdb
-obj/Debug/netcoreapp3.1/RazorPagesMovie.assets.cache
-obj/Debug/netcoreapp3.1/RazorPagesMovie.csproj.CoreCompileInputs.cache
-obj/Debug/netcoreapp3.1/RazorPagesMovie.csproj.FileListAbsolute.txt
-obj/Debug/netcoreapp3.1/RazorPagesMovie.csprojAssemblyReference.cache
-obj/Debug/netcoreapp3.1/RazorPagesMovie.dll
-obj/Debug/netcoreapp3.1/RazorPagesMovie.pdb
-obj/Debug/netcoreapp3.1/RazorPagesMovie.RazorCoreGenerate.cache
-obj/Debug/netcoreapp3.1/RazorPagesMovie.Views.dll
-obj/Debug/netcoreapp3.1/RazorPagesMovie.Views.pdb
+
+/**/bin/Debug
+/**/obj/Debug
