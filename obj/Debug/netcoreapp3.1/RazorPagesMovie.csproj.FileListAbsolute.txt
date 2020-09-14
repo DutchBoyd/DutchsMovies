@@ -174,3 +174,4 @@ C:\Projects\tutorial\RazorPagesMovie\obj\Debug\netcoreapp3.1\Razor\Pages\Movies\
 C:\Projects\tutorial\RazorPagesMovie\obj\Debug\netcoreapp3.1\Razor\Pages\Movies\Details.cshtml.g.cs
 C:\Projects\tutorial\RazorPagesMovie\obj\Debug\netcoreapp3.1\Razor\Pages\Movies\Edit.cshtml.g.cs
 C:\Projects\tutorial\RazorPagesMovie\obj\Debug\netcoreapp3.1\Razor\Pages\Movies\Index.cshtml.g.cs
+C:\Projects\tutorial\RazorPagesMovie\obj\Debug\netcoreapp3.1\Razor\Pages\Allstar.cshtml.g.cs
