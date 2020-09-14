@@ -70,11 +70,11 @@
                 @* @Html.DisplayFor(modelItem => item.Poster) *@
                 @if (item.Poster != "")
                 {
-                    <a href="/assets/posters/@item.Poster"><p>View</p></a> 
+                    <a href="/assets/posters/@item.Poster"><span class="material-icons" style="color: greenyellow;">check</span></a> 
                 }
                 else
                 {
-                    <p>None</p>
+                    <span class="material-icons" style="color: red;">horizontal_rule</span>
                 }
             </td>
             <td>
